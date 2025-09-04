@@ -1,0 +1,55 @@
+# ======================================
+# 共通
+# ======================================
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.auth.json
+
+# IDE / Editor
+/.vscode
+/.idea
+/.fleet
+/.zed
+
+# ======================================
+# Laravel (Backend)
+# ======================================
+backend/laravel_app/vendor
+backend/laravel_app/public/build
+backend/laravel_app/public/hot
+backend/laravel_app/public/storage
+backend/laravel_app/storage/*.key
+backend/laravel_app/storage/pail
+backend/laravel_app/Homestead.json
+backend/laravel_app/Homestead.yaml
+backend/laravel_app/.phpunit.result.cache
+backend/laravel_app/.phpunit.cache
+backend/laravel_app/.phpactor.json
+backend/laravel_app/.nova
+
+# ======================================
+# Next.js (Frontend)
+# ======================================
+frontend/next-app/.next/
+frontend/next-app/out/
+frontend/next-app/build/
+frontend/next-app/coverage/
+frontend/next-app/node_modules/
+frontend/next-app/npm-debug.log*
+frontend/next-app/yarn-debug.log*
+frontend/next-app/yarn-error.log*
+frontend/next-app/.vercel
+frontend/next-app/*.tsbuildinfo
+frontend/next-app/next-env.d.ts
+
+# Yarn (if used)
+frontend/next-app/.pnp
+frontend/next-app/.pnp.*
+frontend/next-app/.yarn/*
+!frontend/next-app/.yarn/patches
+!frontend/next-app/.yarn/plugins
+!frontend/next-app/.yarn/releases
+!frontend/next-app/.yarn/versions
